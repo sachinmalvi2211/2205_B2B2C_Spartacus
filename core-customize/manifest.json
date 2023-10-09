@@ -317,6 +317,14 @@
             "value": ""
 		},
 		{
+		 "key": "demostorefront.additionalWebSpringConfigs.addonname",
+            "value": "classpath:/configurablebundleaddon/web/spring/configurablebundleaddon-web-spring.xml,/textfieldconfiguratortemplateaddon/web/spring/textfieldconfiguratortemplateaddon-spring.xml"
+		},
+		{
+		 "key": "demob2bstorefront.additionalWebSpringConfigs.addonname",
+            "value": "classpath:/configurablebundleaddon/web/spring/configurablebundleaddon-web-spring.xml,/textfieldconfiguratortemplateaddon/web/spring/textfieldconfiguratortemplateaddon-spring.xml"
+		},
+		{
 		 "key": "demostorefront.additionalWebSpringConfigs.b2bacceleratoraddon",
             "value": "classpath:/b2bacceleratoraddon/web/spring/b2bacceleratoraddon-web-spring.xml,classpath:/b2bacceleratoraddon/web/spring/multi-step-checkout-config.xml,classpath:/b2bacceleratoraddon/web/spring/b2bacceleratoraddon-spring-security-config.xml"
 		},
@@ -336,9 +344,11 @@
 				"adaptivesearchsamplesaddon",
 				"multicountrysampledataaddon",
 				"pcmbackofficesamplesaddon",
-				"personalizationaddon"
+				"personalizationaddon",
+				"configurablebundleaddon",
+				"textfieldconfiguratortemplateaddon"
          ],
-	"storefronts": [
+			"storefronts": [
                 "demostorefront"
             ],
             "template": "yacceleratorstorefront"
@@ -351,9 +361,11 @@
                 "commerceorgaddon",
                 "commerceorgsamplesaddon",
                 "sapproductconfigb2baddon",
-				"orderselfserviceaddon"
+				"orderselfserviceaddon",
+				"configurablebundleaddon",
+				"textfieldconfiguratortemplateaddon"
             ],
-            "storefront": "demostorefront",
+            "storefront": "demob2bstorefront",
             "template": "yacceleratorstorefront"
         }
     ],
